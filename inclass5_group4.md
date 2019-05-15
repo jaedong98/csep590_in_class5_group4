@@ -19,6 +19,8 @@ Mutant3: x=-2, y=-3
 
 ## 3. Briefly explain how scopes work in Z3 and when they are useful?
 
+Scopes work by allowing you to push the current state of asserts, add some assert cases, then pop back to the original state.
+This allows you to remove redundant code and reuse statements in multiple tests.
 
 ## 4. (Optional) Recall your solution for the in-class 4 exercise. Pick one of the non-equivalent mutants that you deemed equivalent and that requires reasoning about limited-precision data types. Give the mutant ID and a Z3 program that proves non-equivalence.
 
