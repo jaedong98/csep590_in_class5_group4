@@ -34,12 +34,14 @@
 (push)
 (echo "Mutant3")
 (assert (not (= y-lt-zero (= y 0)))) ;; Mutant3
+(assert (not (= a3 (+ a1 y))))
 (check-sat)
 (pop)
 
 (push)
 (echo "Mutant4")
 (assert (not (= y-lt-zero (<= y 0)))) ;; Mutant4
+(assert (not (= a3 (+ a1 y))))
 (check-sat)
 (pop)
 

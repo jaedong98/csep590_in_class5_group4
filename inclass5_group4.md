@@ -11,6 +11,12 @@ Pair 3 is non-equivalent. a=3, b=1, and c= 2.
 
 ## 2. Which of the four mutants in set1 are equivalent? Provide, for each non-equivalent mutant, a test case that kills it.
 
+Mutant 4 is equivalent.
+
+Mutant1: x=-1, y=-1
+Mutant2: x=-2, y=-3
+Mutant3: x=-2, y=-3
+
 ## 3. Briefly explain how scopes work in Z3 and when they are useful?
 
 
