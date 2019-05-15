@@ -36,8 +36,11 @@
 ;;;;;;;;;;;;;;;;; START STUDENT CODE ;;;;;;;;;;;;;;;
 
 ; TODO: Issue a constraint that makes trian = trian1 + trian2 + trian3
+(assert (= trian (+ trian1 (+ trian2 trian3))))
 
 ; TODO: Add constraints to classify Mutant 84 as equivalent or non-equivalent
+(assert (= initial-condition (<= a (+ b c))))
+(assert (= mutated-condition (< a (+ b c))))
 
 ;;;;;;;;;;;;;;;;; END STUDENT CODE ;;;;;;;;;;;;;;;
 
