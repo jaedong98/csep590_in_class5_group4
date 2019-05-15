@@ -28,6 +28,11 @@
 
 ;;;;;;;;;;;;;;;;; START STUDENT CODE ;;;;;;;;;;;;;;;
 
+(assert (= a1 (+ x y)))
+(assert (= a2 (+ a1 z)))
+(assert (= mutated_a2 (- a1 z)))
+(assert (not (= a2 mutated_a2)))
+
 ;;;;;;;;;;;;;;;;; END STUDENT CODE ;;;;;;;;;;;;;;;
 
 (check-sat)

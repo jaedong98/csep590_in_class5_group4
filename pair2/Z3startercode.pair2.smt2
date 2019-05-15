@@ -83,6 +83,9 @@
 
 ;;;;;;;;;;;;;;;;; START STUDENT CODE ;;;;;;;;;;;;;;;
 
+(assert (= initial-condition line-33-cond))
+(assert (= mutated-condition (<= trian 0)))
+
 ;;;;;;;;;;;;;;;;; END STUDENT CODE ;;;;;;;;;;;;;;;
 
 (assert (not (= mutated-condition initial-condition)))
